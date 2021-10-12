@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Escrow.sol": "Escrow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Escrow.sol": {
+			"keccak256": "0x08ea504175a922203c24efc06aeb776ba348d1c76a677942f588a39757b67adf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ab74890d875d7b94c3252aa7e481f53580d22c2cf3fae27d09960870c05200ae",
+				"dweb:/ipfs/QmZawhGTK1oiuWiWpHpEmaowiSQ41mKoegr29FoqkaapGe"
+			]
+		}
+	},
+	"version": 1
+}

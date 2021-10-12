@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "owners",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CatCoin.sol": "CatCoin"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CatCoin.sol": {
+			"keccak256": "0x842f7ebeb4780ba148a4c2da4d14443eb5c6f89736360df3bd41acb41861bbea",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8a5a783f047eccaae4945911aa588a6db047776156d89a567ede06b39cdf28b0",
+				"dweb:/ipfs/QmW5tPm2LozJrdo69HynD1Ja2hYUcwxk1yeATErmXV4zcM"
+			]
+		},
+		"contracts/MyERC20Token.sol": {
+			"keccak256": "0x0271820aa5d7b56cdaebc085ecc3064dd0d5df586f5d5f87f6dfa1c909eb1730",
+			"urls": [
+				"bzz-raw://05756bb3e40e8b965950ecec693be55eb89828ed8b7d6f8ad51ab53c6165ce54",
+				"dweb:/ipfs/QmVsAsapzqUEc9HBfPkAWxamgC6SA6r63mE1q5Jpg2WwZJ"
+			]
+		}
+	},
+	"version": 1
+}

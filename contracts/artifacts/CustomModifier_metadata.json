@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lname",
+						"type": "string"
+					}
+				],
+				"name": "AddPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "MyPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CustomModifier.sol": "CustomModifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CustomModifier.sol": {
+			"keccak256": "0x7efb623fc115c5db5240621fb81a5b7478da45344fe3a386178ca80945add9c1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://404e09fc56b89fcbb36d7fcff42a8fae510f8dcd9bfe268e128c46feb14b6cb3",
+				"dweb:/ipfs/QmPCkf9YRuX7nSUAyzERs7PJZAdzR74FdRfdYQVyEdwtnL"
+			]
+		}
+	},
+	"version": 1
+}

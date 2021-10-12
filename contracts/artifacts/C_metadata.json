@@ -1,0 +1,251 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Activate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lname",
+						"type": "string"
+					}
+				],
+				"name": "AddPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "IsActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "MyPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "People",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_value",
+						"type": "bool"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_value",
+						"type": "int256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum C.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CustomModifier.sol": "C"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CustomModifier.sol": {
+			"keccak256": "0x270bd9168af97a63c870adb711d53eeb686f1bfca1431b3acb72cd11ec0862bf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5f3e171a4efcc835f698634e4fe18f7d0fcc31d81c4e8fa2a8c93112561b1f2e",
+				"dweb:/ipfs/QmSJu7U3F2Q7kqsGQHFAvo8xVZrJqchdSRP6vEhjLhBapB"
+			]
+		}
+	},
+	"version": 1
+}

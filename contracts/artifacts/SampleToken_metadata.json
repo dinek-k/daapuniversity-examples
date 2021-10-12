@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_buyer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_tokensBought",
+						"type": "uint256"
+					}
+				],
+				"name": "Purchase",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "buyToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SampleToken.sol": "SampleToken"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyERC20Token.sol": {
+			"keccak256": "0xeb77e5e9946957c42c776a1964580aaf27593119cb804632976c77d52777864c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3ac59394bee973346499717d3239478db4580add6a8a14b224d258a43419fbea",
+				"dweb:/ipfs/QmZFjRkq3wdBLpAhnStvFUYG9vrKvte7kaisn1h9Dhe7dZ"
+			]
+		},
+		"contracts/SampleToken.sol": {
+			"keccak256": "0x2fe3c7df5de90c28bad1c887a2c7bb5537cab419888037cc86487174d1b279dc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f057731145e5cd88805b55aa9fe8e7975a96505686c12021192f44f37730ddbf",
+				"dweb:/ipfs/QmNUNHVwvRHm6wDZ6R1pP5YXGmCTmqbeASdgtGcBuGChbH"
+			]
+		}
+	},
+	"version": 1
+}
