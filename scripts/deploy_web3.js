@@ -12,6 +12,7 @@
 
         const metadata = JSON.parse(await remix.call('fileManager', 'getFile', artifactsPath))
         const accounts = await web3.eth.getAccounts()
+        
     
         let contract = new web3.eth.Contract(metadata.abi)
     
